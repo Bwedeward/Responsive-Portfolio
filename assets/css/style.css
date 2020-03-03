@@ -242,10 +242,18 @@ input[type="submit"] {
     background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
-  .container {
+  header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
+  }
+  .auth-image {
+    width: 100%;
+  }
+
+  .work {
+    align-items: center;
   }
 }
