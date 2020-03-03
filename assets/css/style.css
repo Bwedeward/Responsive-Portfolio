@@ -229,6 +229,7 @@ input[type="submit"] {
 @media screen and (max-width: 768px) {
   .main-section {
     max-width: 100%;
+    background-color: coral;
   }
   header {
     max-width: 100%;
@@ -237,4 +238,14 @@ input[type="submit"] {
 }
 
 @media screen and (max-width: 640px) {
+  .main-section {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
