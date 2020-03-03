@@ -220,9 +220,20 @@ input[type="submit"] {
   .main-section {
     max-width: 70%;
   }
+  header {
+    max-width: 100%;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .main-section {
+    max-width: 100%;
+  }
+  header {
+    max-width: 100%;
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 640px) {
