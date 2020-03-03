@@ -217,6 +217,10 @@ input[type="submit"] {
   border: 0 none;
 }
 @media screen and (max-width: 980px) {
+  .main-section {
+    max-width: 70%;
+    background-color: coral;
+  }
 }
 
 @media screen and (max-width: 768px) {
