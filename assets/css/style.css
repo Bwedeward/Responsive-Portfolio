@@ -229,7 +229,6 @@ input[type="submit"] {
 @media screen and (max-width: 768px) {
   .main-section {
     max-width: 100%;
-    background-color: coral;
   }
   header {
     max-width: 100%;
@@ -239,7 +238,6 @@ input[type="submit"] {
 
 @media screen and (max-width: 640px) {
   .main-section {
-    background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -249,10 +247,12 @@ input[type="submit"] {
     flex-direction: column;
     text-align: center;
   }
-  .auth-image {
+  #logo {
     width: 100%;
   }
-
+  nav {
+    float: none;
+  }
   .work {
     align-items: center;
   }
